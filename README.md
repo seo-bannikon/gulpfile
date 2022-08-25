@@ -9,17 +9,29 @@
 5. Создать проект (dist, src и тп)
 6. Ввести перечень команд:
 npm init.                                                                       // Ввести имя проекта, версия, описание (можно скипнуть)
+
 npm i --global gulp-cli                                                         // Для глобальной (первичной) настройки!!!
+
 npm i --save-dev gulp-cli
+
 npm i --save-dev browser-sync
+
 npm i --save-dev gulp-concat
+
 npm i --save-dev gulp-uglify-es
-npm i --save-dev gulp-sass         
+
+npm i --save-dev gulp-sass
+
 npm i -D sass                                                                   // сейчас устанавливается 2 пакета sass для корректной работы
+
 npm i --save-dev gulp-autoprefixer
+
 npm i --save-dev gulp-clean-css
+
 npm i --save-dev gulp-less
+
 npm i --save-dev compress-images gifsicle@5.3.0 pngquant-bin@6.0.0 gulp-clean
+
 npm i --save-dev gulp-newer
 
 7. В дальнейшем для копирования установленных настроек необходимо скопировать 2 файла: package.json и gulpfile.js, поместить их в папку с новым проектом, открыть в редакторе новый проект, открыть терминал и ввести команду npm i
