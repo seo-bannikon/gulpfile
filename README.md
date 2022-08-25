@@ -40,7 +40,7 @@ npm i --save-dev gulp-newer
 
 В нём отсутствует работа с api gulp.task(). Вместо этого прописывается function server(), где server - название таска (задачи). 
 
-Также вывод задачи происходит не через gulp.task('default', gulp.parallel('watch', 'server', 'styles')), а через exports.server  = server;
+Также вывод задачи происходит не через gulp.task('default', gulp.parallel('watch', 'server', 'styles')), а через exports.server  = server, где server - название таска (задачи). Подробнее в комментариях кода;
 
 Помимо этого, используется последняя версия sass с правильным применением для корректного запуска.
 
